@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Moderne Corporate-Landingpage für professionelle Dienstleistungen.">
+  <title>Corporate Template Landingpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#hauptinhalt">Zum Inhalt springen</a>
+  <header class="site-header" id="top">
+    <div class="container header-content">
+      <a class="brand" href="#top" aria-label="Startseite">
+        <!-- TODO: Logo ersetzen -->
+        <svg class="brand-mark" width="40" height="40" viewBox="0 0 48 48" role="img" aria-hidden="true">
+          <rect width="48" height="48" rx="10" fill="currentColor" opacity="0.12"></rect>
+          <path d="M14 32L24 12l10 20h-5.4L24 22l-4.6 10H14z" fill="currentColor"></path>
+        </svg>
+        <span class="brand-name">NextVision Consulting</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Hauptmenü umschalten">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul class="nav-list" id="primary-menu">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#preise">Preise</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="hauptinhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Strategische Beratung &amp; digitale Exzellenz</p>
+          <h1 id="hero-title">Wir verwandeln komplexe Ideen in klare Ergebnisse.</h1>
+          <p class="hero-subtitle">Mit unserem interdisziplinären Team begleiten wir Ihr Unternehmen vom ersten Workshop bis zum globalen Rollout – messbar, transparent und nachhaltig.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#preise">Jetzt durchstarten</a>
+            <a class="button button-secondary" href="#leistungen">Mehr erfahren</a>
+          </div>
+        </div>
+        <div class="hero-media" role="presentation">
+          <!-- TODO: Hero-Bild ersetzen -->
+          <svg viewBox="0 0 520 360" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="var(--color-primary)" stop-opacity="0.2" />
+                <stop offset="100%" stop-color="var(--color-accent)" stop-opacity="0.4" />
+              </linearGradient>
+            </defs>
+            <rect width="520" height="360" rx="24" fill="url(#gradient)" />
+            <g fill="none" stroke="var(--color-primary)" stroke-width="6" stroke-linecap="round">
+              <path d="M100 180c40-80 140-100 200-20s100 120 140 20" opacity="0.4"></path>
+              <path d="M80 240c60-60 160-60 220 20s120 120 160 20" opacity="0.2"></path>
+            </g>
+            <g fill="var(--color-primary)">
+              <circle cx="160" cy="120" r="18" opacity="0.7"></circle>
+              <circle cx="260" cy="200" r="14" opacity="0.5"></circle>
+              <circle cx="360" cy="140" r="20" opacity="0.7"></circle>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-proposition" id="leistungen" aria-labelledby="value-title">
+      <div class="container section-intro">
+        <h2 id="value-title">Was unsere Kunden voranbringt</h2>
+        <p>Unsere Leistungen vereinen Strategie, Technologie und Change-Management für nachhaltigen Erfolg.</p>
+      </div>
+      <div class="container card-grid">
+        <article class="card" aria-labelledby="card-strategy">
+          <h3 id="card-strategy">Strategische Roadmaps</h3>
+          <p>Wir entwickeln datenbasierte Roadmaps, die Innovation ermöglichen und gleichzeitig Risiken minimieren.</p>
+          <a class="text-link" href="#kontakt">Beratung anfragen</a>
+        </article>
+        <article class="card" aria-labelledby="card-transformation">
+          <h3 id="card-transformation">Digitale Transformation</h3>
+          <p>Vom Legacy-System zur Cloud – wir orchestrieren skalierbare Plattformen mit Fokus auf Nutzererlebnis.</p>
+          <a class="text-link" href="#kontakt">Use Cases ansehen</a>
+        </article>
+        <article class="card" aria-labelledby="card-enablement">
+          <h3 id="card-enablement">Enablement &amp; Training</h3>
+          <p>Wir befähigen Teams durch maßgeschneiderte Programme, neue Prozesse souverän umzusetzen.</p>
+          <a class="text-link" href="#kontakt">Workshops buchen</a>
+        </article>
+        <article class="card" aria-labelledby="card-analytics">
+          <h3 id="card-analytics">Insights &amp; Analytics</h3>
+          <p>Wir liefern Echtzeit-Insights und KPIs, die Entscheidungen beschleunigen und Transparenz schaffen.</p>
+          <a class="text-link" href="#kontakt">Dashboard-Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials" id="referenzen" aria-labelledby="testimonial-title">
+      <div class="container section-intro">
+        <h2 id="testimonial-title">Stimmen aus unseren Projekten</h2>
+        <p>Unternehmen aus Technologie, Industrie und Finanzen vertrauen auf unsere Expertise.</p>
+      </div>
+      <div class="container testimonial-grid">
+        <figure class="testimonial-card">
+          <blockquote>
+            „NextVision hat uns geholfen, unsere globale Plattform in Rekordzeit zu modernisieren. Die Zusammenarbeit war partnerschaftlich und hoch professionell.“
+          </blockquote>
+          <figcaption>
+            <span class="author">Clara Neumann</span>
+            <span class="role">VP Digital Experience, Venturo AG</span>
+          </figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>
+            „Mit der Expertise im Change-Management konnten wir unsere Teams nahtlos auf den neuen Prozess ausrichten.“
+          </blockquote>
+          <figcaption>
+            <span class="author">Philipp Maier</span>
+            <span class="role">Head of Operations, Lumen Industries</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="pricing" id="preise" aria-labelledby="pricing-title">
+      <div class="container section-intro">
+        <h2 id="pricing-title">Preismodelle für jede Skalierungsphase</h2>
+        <p>Transparente Pakete, die mit Ihrem Wachstum Schritt halten.</p>
+      </div>
+      <div class="container pricing-grid" role="list">
+        <article class="pricing-card" role="listitem" aria-labelledby="pricing-starter">
+          <h3 id="pricing-starter">Starter</h3>
+          <p class="price">1.900 €<span>/Monat</span></p>
+          <p class="pricing-description">Ideal für Pilotprojekte und erste digitale Initiativen.</p>
+          <ul class="pricing-list">
+            <li>Workshops &amp; Discovery</li>
+            <li>2 dedizierte Consultants</li>
+            <li>Monatliches Reporting</li>
+          </ul>
+          <a class="button button-outline" href="#kontakt">Anfragen</a>
+        </article>
+        <article class="pricing-card pricing-featured" role="listitem" aria-labelledby="pricing-growth">
+          <div class="badge" aria-hidden="true">Beliebt</div>
+          <h3 id="pricing-growth">Growth</h3>
+          <p class="price">3.900 €<span>/Monat</span></p>
+          <p class="pricing-description">Für skalierende Teams mit ambitionierten Roadmaps.</p>
+          <ul class="pricing-list">
+            <li>Strategische Programmsteuerung</li>
+            <li>5 dedizierte Consultants</li>
+            <li>24/7 Priority Support</li>
+            <li>Executive Briefings</li>
+          </ul>
+          <a class="button button-primary" href="#kontakt">Jetzt loslegen</a>
+        </article>
+        <article class="pricing-card" role="listitem" aria-labelledby="pricing-enterprise">
+          <h3 id="pricing-enterprise">Enterprise</h3>
+          <p class="price">Individuell</p>
+          <p class="pricing-description">Maßgeschneiderte Enterprise-Programme für komplexe Organisationen.</p>
+          <ul class="pricing-list">
+            <li>Globales Rollout-Management</li>
+            <li>Dedicated Success Team</li>
+            <li>Advanced Analytics &amp; AI</li>
+            <li>Change-Kommunikation</li>
+          </ul>
+          <a class="button button-outline" href="#kontakt">Termin vereinbaren</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="container section-intro">
+        <h2 id="faq-title">Häufig gestellte Fragen</h2>
+        <p>Alles Wissenswerte rund um Zusammenarbeit, Laufzeiten und Datenschutz.</p>
+      </div>
+      <div class="container faq-list" role="list">
+        <article class="faq-item" role="listitem">
+          <h3>
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-panel-1" id="faq-button-1">
+              Wie schnell können Projekte starten?
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-panel-1" role="region" aria-labelledby="faq-button-1" hidden>
+            <p>Nach einem Kick-off innerhalb von zwei Wochen stellen wir das Team bereit und beginnen mit der Umsetzung.</p>
+          </div>
+        </article>
+        <article class="faq-item" role="listitem">
+          <h3>
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-panel-2" id="faq-button-2">
+              Wie läuft die Zusammenarbeit remote ab?
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-panel-2" role="region" aria-labelledby="faq-button-2" hidden>
+            <p>Wir kombinieren regelmäßige virtuelle Workshops mit asynchronen Updates, um Transparenz und Geschwindigkeit sicherzustellen.</p>
+          </div>
+        </article>
+        <article class="faq-item" role="listitem">
+          <h3>
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-panel-3" id="faq-button-3">
+              Bieten Sie Datenschutz- und Compliance-Beratung?
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-panel-3" role="region" aria-labelledby="faq-button-3" hidden>
+            <p>Ja, unsere spezialisierten Consultants begleiten Sie bei Datenschutz-Audits, Compliance-Anforderungen und Zertifizierungen.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section" id="kontakt" aria-labelledby="cta-title">
+      <div class="container cta-card">
+        <div class="cta-content">
+          <h2 id="cta-title">Lassen Sie uns über Ihre nächste Initiative sprechen.</h2>
+          <p>Wir melden uns innerhalb eines Werktags mit einem personalisierten Vorschlag.</p>
+        </div>
+        <a class="button button-primary" href="mailto:hallo@nextvision.com">Kontakt aufnehmen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-labelledby="footer-title">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-brand" id="footer-title">NextVision Consulting</h2>
+        <p class="footer-text">Wir begleiten ambitionierte Unternehmen auf ihrem Weg zur digitalen Exzellenz.</p>
+      </div>
+      <div>
+        <h3 class="footer-heading">Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#preise">Preise</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Rechtliches</h3>
+        <ul class="footer-links">
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">AGB</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Kontakt</h3>
+        <address class="footer-text">
+          <span>NextVision Consulting GmbH</span><br>
+          <span>Europaallee 45</span><br>
+          <span>60327 Frankfurt am Main</span><br>
+          <a href="tel:+49691234567">+49 69 123 45 67</a>
+        </address>
+      </div>
+    </div>
+    <p class="footer-meta">© <span id="year"></span> NextVision Consulting. Alle Rechte vorbehalten.</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
