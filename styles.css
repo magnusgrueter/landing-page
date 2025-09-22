@@ -407,7 +407,6 @@ button,
 
 
 
-
 .testimonial-section {
   margin-top: 4rem; 
 }
@@ -436,6 +435,10 @@ button,
 .testimonial-card .role {
   color: var(--color-text-muted);
   font-size: var(--step--1);
+}
+
+.testimonials .section-intro {
+  margin-bottom: var(--gap-2); /* vorher global gap-4 */
 }
 
 .pricing {
