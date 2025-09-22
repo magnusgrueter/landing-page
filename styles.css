@@ -395,6 +395,20 @@ button,
   color: var(--color-text-muted);
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card a {
+  margin-top: auto;
+}
+
+.projects-title {
+  margin-top: 3rem;
+}
+
 .testimonial-card {
   background: var(--color-muted);
   padding: clamp(1.5rem, 1.2rem + 1vw, 2rem);
