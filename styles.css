@@ -406,7 +406,16 @@ button,
 }
 
 .projects-title {
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+
+.testimonial-section {
+  margin-top: 4rem; 
+}
+
+
+.projects-title {
+  margin-bottom: 1rem;
 }
 
 .testimonial-card {
